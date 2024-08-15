@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "shopwise",
+  "version": "1.0",
+  "description": "Shopee Spam Filtering and Summarization Extension",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [ "http://127.0.0.1:8000/*", "http://localhost:8000/*" ],
+  "content_scripts": [
+    {
+      "matches": [ "https://shopee.vn/*", "https://mall.shopee.vn/*"],
+      "js": ["dist/content.js"],
+      "css": ["src/content.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
