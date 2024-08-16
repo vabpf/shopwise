@@ -2,7 +2,7 @@
     <img src="media/logo.png" alt="Logo">
 </p>
 
-# Shopee Review Scraper and Spam Filtering
+# Shopee Browser Extension for Filtering Spam and Summarizing Product Reviews
 
 This repository contains a project for scraping reviews from Shopee, filtering spam reviews, and summarizing genuine reviews. The project includes a web extension, a FastAPI server, and scripts for data processing and analysis.
 
